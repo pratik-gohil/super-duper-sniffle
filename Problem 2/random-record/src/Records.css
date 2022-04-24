@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  justify-content: center;
+  aling-items: center;
+  width: 100vw;
+  height: 100vh;
+  background: #333;
+  color: #333;
+}
+
+.button {
+  padding: 1rem;
+  background: #fff;
+  border: 2px solid #333;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #333;
+  color: #fff;
+}
+
+.records-wrapper {
+  width: min(100% - 2rem, 800px);
+  padding: 2rem;
+  background: #fff;
+  font-weight: 500;
+}
+
+.records-wrapper > * {
+  margin-bottom: 1rem;
+}
+
+.records-table {
+  border: 2px solid #333;
+}
+
+.records-table > .row,
+.records-table > .records > .record {
+  padding: 1rem;
+}
+.records-table > .row,
+.records-table > .records > .record:not(:last-child) {
+  border-bottom: 2px solid #333;
+}
+
+.records-table > .records > .record {
+  display: flex;
+  justify-content: space-between;
+}
