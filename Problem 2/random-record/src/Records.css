@@ -48,3 +48,8 @@
   display: flex;
   justify-content: space-between;
 }
+
+.records {
+  max-height: 50vh;
+  overflow-y: scroll;
+}
